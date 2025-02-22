@@ -1,58 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 20px;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Video</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <h1 class="rainbow-heading">This is the demo video</h1>
+        <video width="600" controls>
+            <source src="globe_rotate.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
+        <a href="https://youtube.com" target="_blank" class="youtube-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" class="youtube-icon">
+            Click me to jump to YouTube
+        </a>
 
-.content {
-    display: inline-block;
-    text-align: center;
-}
-
-.rainbow-heading {
-    font-size: 36px;
-    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    -webkit-background-clip: text;
-    color: transparent;
-    text-decoration: underline;
-}
-
-a {
-    font-size: 18px;
-    color: #0066cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.youtube-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.youtube-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-}
-
-.dark-section {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    margin-top: 30px;
-    border-radius: 5px;
-}
-
-.left-align {
-    text-align: left;
-    padding-left: 20px;
-}
-
-.left-align li {
-    margin: 10px 0;
-}
+        <div class="dark-section">
+            <ul class="left-align">
+                <li>1. Yahan kuch bhi likho</li>
+                <li>2. Yahan GitHub repo ka link dedo</li>
+                <li>3. Reference bhi de sakte hain yahan</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
